@@ -1,0 +1,14 @@
+{
+    "name": "arxitect",
+    "version": "1.1.1",
+    "type": "module",
+    "description": "Arxitect is an agentic coding plugin that enforces best-practice software design & architecture.",
+    "license": "MIT",
+    "scripts": {
+        "test": "./tests/run-tests.sh",
+        "test:behavioral": "./tests/run-tests.sh --behavioral",
+        "test:triggering": "./tests/run-tests.sh --triggering",
+        "test:explicit": "./tests/run-tests.sh --explicit",
+        "test:all": "./tests/run-tests.sh --all"
+    }
+}
